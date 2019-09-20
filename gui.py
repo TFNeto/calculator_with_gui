@@ -16,10 +16,10 @@ class calcgui:
         button_seven = Button(master, text="7", height=h, width=w)
         button_eight = Button(master, text="8", height=h, width=w)
         button_nine = Button(master, text="9", height=h, width=w)
-        button_equal = Button(master, text="=", height=8, width=w)
+        button_equal = Button(master, text="=", height=12, width=w)
         # layout
         Label(master, text="0").grid(
-            row=0, rowspan=2, columnspan=5, sticky=W+E)
+            row=0, rowspan=2, columnspan=5, sticky=E)
         button_one.grid(row=3, column=0, sticky=W+E)
         button_two.grid(row=3, column=1, sticky=W+E)
         button_three.grid(row=3, column=2, sticky=W+E)
