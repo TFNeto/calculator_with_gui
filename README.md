@@ -5,8 +5,10 @@ First python project, a calculator with graphic user interface
 
 TODO
 -stage 1
-[] - Finish calculator basic layoutt
+
+[] - Finish calculator basic layout
 [] - introduce basic operations (+ - / *)
+
 -stage 2
 [] - Upgrade layout
 [] - introduce factorial
